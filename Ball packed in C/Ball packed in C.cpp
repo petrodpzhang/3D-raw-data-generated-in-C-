@@ -44,7 +44,7 @@ int main()
 
     size = LX * LY * LZ * sizeof(unsigned char);
     raw = (unsigned char*)malloc(size);
-    fopen_s(&fd, "D:\\ball-C.txt", "a");
+    fopen_s(&fd, "D:\\ball-C.raw", "w");
 
     int n = 0;
     for (int k = 0; k < LZ; k++)
